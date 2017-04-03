@@ -1,0 +1,44 @@
+body{ 
+   background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+  background-repeat: no-repeat;
+  
+  
+   background-size: contain;
+   background-attachment: fixed;
+  
+   color: white;
+}
+
+#footer {
+  color: #000; 
+  margin-top: 280px
+}
+#footer a:link{ color: #000; }
+#footer a:hover{ background: #fff; }
+#footer a:visited{ color: #000; }
+#footer a:active{ background: #EEFFA8; }
+
+
+#items_container{
+  display: block;
+  margin: 0 25%;
+  color: black;
+}
+
+.item{
+	float: left;
+	border: #AAA 1px solid;
+	padding: 10px;
+	margin: 10px;
+}
+.item > img{
+	width: 180px;
+	height: 140px;
+	border: #666 1px solid;
+    cursor: pointer;
+}
+.item > span{
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+}
